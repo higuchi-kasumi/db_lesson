@@ -52,7 +52,7 @@ UPDATE people SET department_id = 02 WHERE person_id IN (3,5,6);
 SELECT name,age FROM people WHERE gender = 1 order by age DESC;
 
 -- Q6
-peopleテーブルからレコード追加順に、department_idが1であるレコードを、name・email・ageのカラムのみ取得している。
+peopleテーブルからレコード追加順を元に昇順に、department_idが1であるレコードを、name・email・ageのカラムのみ取得している。
 
 -- Q7
 SELECT name,age,gender FROM people
